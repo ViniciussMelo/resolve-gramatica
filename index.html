@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tópicos especias - </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="form-group">
+                    <label for="gramatica">Gramática: </label>
+                    <input type="text" class="form-control" id="gramatica" placeholder="Digite o número da gramática:">
+                </div>
+                <button id="botao" class="btn btn-primary">Confirmar</button>
+            </div>
+            <div class="col-6">
+                <ul id="gramaticas" class="list-group">
+                </ul>
+            </div>
+            <div class="col-12">
+                <label>Resultado:</label>
+                <textarea id="resultado" disabled class="form-control my-4"></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="./src/resolveSentenca.js"></script>
+    <script src="./src/index.js"></script>
+</body>
+</html>
