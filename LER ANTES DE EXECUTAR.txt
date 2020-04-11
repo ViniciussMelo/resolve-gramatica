@@ -1,0 +1,4 @@
+PASSO A PASSO DE COMO EXECUTAR:
+
+1- Abrir o index.html;
+2- Escolher a gramática e confirmar.
